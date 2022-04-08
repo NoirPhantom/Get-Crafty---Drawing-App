@@ -15,7 +15,7 @@ const fillBtn = document.getElementById('fill');
 let size = 10
 let isPressed = false
 
-colorEl.value = 'black'
+colorEl.value = "black"
 
 let color = colorEl.value
 
