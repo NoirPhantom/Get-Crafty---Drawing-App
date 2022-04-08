@@ -16,16 +16,18 @@ body{
 }
 canvas{
 border: 2px solid #06113c;
-
+box-shadow: 0 10px 20px rgba(0,0,0,0.3), 0 6px 6px rgba(0,0,0,0.3);
+border-radius: 20px;
 }
 
 .toolbox{
-  background-color: #06113c;
-  border: 1px solid #b1d0e0;
+  background-color: #b1d0e0;
+  border: 2px solid #06113c;
   display: flex;
   width: 804px;
   padding: 1rem;
-
+  border-radius: 20px;
+  margin-top: 12px;
 }
 
 .toolbox > * {
@@ -41,10 +43,58 @@ width: 50px;
 margin: 0.25rem;
 padding: 0.25rem;
 cursor: pointer;
-
+border-radius: 20px;
 }
 
 .toolbox > *:last-child{
   margin-left: auto;
+
+}
+
+#clear {
+
+  background-color: #fff;
+  border: 1px solid #b1d0e0;
+  display: flex;
+  width: 100px;
+  padding: 1rem;
+  border-radius: 20px;
+
+}
+
+#increase{
+
+  background-color: #fff;
+  border: 1px solid #b1d0e0;
+  display: flex;
+  width: 50px;
+  padding: 1rem;
+  border-radius: 50px;
+  align-items: center;
+  text-align:  center;
+  justify-content: center;
+}
+
+#decrease{
+
+  background-color: #fff;
+  border: 1px solid #b1d0e0;
+  display: flex;
+  width: 50px;
+  padding: 1rem;
+  border-radius: 50px;
+  align-items: center;
+  text-align:  center;
+  justify-content: center;
+}
+
+#size{
+
+  background-color: #fff;
+  border: 1px solid #b1d0e0;
+  display: flex;
+  width: 70px;
+  padding: 1rem;
+  border-radius: 50px;
 
 }
