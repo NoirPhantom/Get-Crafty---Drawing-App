@@ -1,3 +1,4 @@
+
 const increaseBtn = document.getElementById('increase');
 
 const decreaseBtn = document.getElementById('decrease');
@@ -12,7 +13,9 @@ const ctx = canvas.getContext('2d');
 
 const fillBtn = document.getElementById('fill');
 
+
 let size = 10
+
 let isPressed = false
 
 colorEl.value = "black"
@@ -99,12 +102,12 @@ decreaseBtn.addEventListener('click', () => {
 
 fillBtn.addEventListener('click', () => {
 
-  ctx.fillStyle = colorEl.value;
+  ctx.fillStyle = colorEl.value
 
-  ctx.fillRect(0,0, canvas.width, canvas.height);
-
+  ctx.fillRect(0,0, canvas.width, canvas.height)
 
 })
+
 
 colorEl.addEventListener('change', (e) => color = e.target.value)
 
